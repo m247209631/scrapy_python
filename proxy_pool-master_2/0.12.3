@@ -1,0 +1,23 @@
+Usage: flask [OPTIONS] COMMAND [ARGS]...
+
+  This shell command acts as general utility script for Flask applications.
+
+  It loads the application configured (through the FLASK_APP environment
+  variable) and then provides commands either provided by the application or
+  Flask itself.
+
+  The most useful commands are the "run" and "shell" command.
+
+  Example usage:
+
+    set FLASK_APP=hello.py
+    set FLASK_DEBUG=1
+    flask run
+
+Options:
+  --version  Show the flask version
+  --help     Show this message and exit.
+
+Commands:
+  run    Runs a development server.
+  shell  Runs a shell in the app context.
